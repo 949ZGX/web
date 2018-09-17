@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表头和表格的合并</title>
+</head>
+<body>
+	<table border="1" width="500" height="300" align="center">
+		<caption>表头</caption>
+		<tr>
+			<td colspan="2">张三</td>
+			<!-- <td>18</td> -->
+			<td>前端工程师</td>
+		</tr>
+		<tr>
+			<td>张三</td>
+			<td>18</td>
+			<td rowspan="2">前端工程师</td>
+		</tr>
+		<tr>
+			<td>张三</td>
+			<td>18</td>
+			<!-- <td>前端工程师</td> -->
+		</tr>
+	</table>
+</body>
+</html>

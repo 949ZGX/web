@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	/* 外边距塌陷：直接给子盒子设置垂直方向外边距的时候，会发生外边距塌陷 */
+	/* 解决方式：1给父盒子设置边框  2给父盒子设置overflow:hidden  多用第二种; */
+		.father{
+			width: 500px;
+			height: 400px;
+			background: #232323;
+			/* border: 1px solid #232323; */
+			overflow: hidden;  /* 触发bfc，格式化上下文 */
+		}
+		.son{
+			width: 200px;
+			height: 200px;
+			background: #eee;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="son"></div>
+	</div>
+</body>
+</html>

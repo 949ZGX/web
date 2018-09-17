@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- 清除浮动，当父盒子没有定义高度的时候，嵌套的盒子浮动之后，下边的元素发生位置错误 -->
+	<!-- 方法  clear:left | right | both(工作里最多的) -->
+	<!-- 1：额外标签法：在最后一个浮动元素后添加标签。 -->
+	<!-- 2：给父级元素使用overflow:hidden;  bfc  如果有内容出了盒子不能使用这种方法 -->
+	<!-- 3：伪元素清除浮动：.clearfix:after -->
+	<meta charset="UTF-8">
+	<title>浮动页面布局</title>
+	<style type="text/css">
+		.header,.main,.footer{
+			width: 500px;
+			color: white;
+		}
+		.header,.footer{
+			height: 100px;
+			background: #000;
+		}
+		.main{
+			/* 没有给高度将会使下面的div上去，使用三种方法解决 */
+			background: #eee;
+			margin: 10px 0;
+			/* overflow: hidden; */
+		}
+		.content{
+			width: 300px;
+			height: 300px;
+			background: orange;
+			float: left;
+		}
+		.sidebar{
+			width: 190px;
+			height: 300px;
+			background: green;
+			float: right;
+		}
+		/* 伪元素清除浮动 */
+		.clearfix:after{
+			content: "";
+			display: block;
+			height: 0;
+			line-height: 0;
+			visibility: hidden;
+			clear: both;
+		}
+		/* 兼容IE浏览器 */
+		.clearfix{
+			zoom: 1;
+		}
+	</style>
+</head>
+<body>
+		<div class="header">header</div>
+		<div class="main clearfix">
+			<div class="content">content</div>
+			<div class="sidebar">siderbar</div>
+			<!-- <div style="clear:both;"></div> /**额外标签法，一般不使用/ -->
+		</div>
+		<div class="footer">footer</div>
+</body>
+</html>

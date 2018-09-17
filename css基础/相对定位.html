@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>相对定位</title>
+	<!-- 1:从自身出发 2:还占据原来的位置,不脱标 3:子绝父相(父元素相对定位,子元素绝对定位)  工作中用的很多的 4:行内元素使用相对定位不能转行内块-->
+	<style type="text/css">
+		.father{
+			width: 500px;
+			height: 500px;
+			background: #eee;
+			margin: 100px 0 0 300px;
+			position: relative;
+		}
+		.red{
+			width: 100px;
+			height: 100px;
+			background: red;	
+			position: absolute;
+			top: 20px;
+		}
+		/* .green{
+			background: green;
+			position: relative;
+			bottom: 50px;
+		} */
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="red"></div>
+	</div>
+	<!-- <div class="green"></div> -->
+</body>
+</html>

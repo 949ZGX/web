@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>固定定位</title>
+	<!-- 从浏览器出发,脱标    行内元素转行内块,不推荐使用-->
+	<style type="text/css">
+		.box,.box1{
+			width: 100px;
+			height: 100px;
+		}
+		.box{
+			background: red;
+			position: fixed;
+			bottom: 50px;
+			right: 5px;
+		}
+		.box1{
+			background: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+	<div class="box1"></div>
+</body>
+</html>

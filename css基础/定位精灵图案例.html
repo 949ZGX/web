@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>定位精灵图案例</title>
+	<style type="text/css">
+		body,ul,li{
+			margin: 0;
+			padding: 0;
+		}
+		ul,li{
+			list-style: none;
+		}
+		.nav{
+			height: 48px;
+			background: #000;
+			margin-top: 100px;
+		}
+		.nav-con{
+			width: 1182px;
+			height: 48px;
+			margin: 0 auto;
+			position: relative;
+		}
+		.nav-con .hot{
+			width: 31px;
+			height: 21px;
+			background: url('images/sprite.png') -57px 0;
+			position: absolute;
+			left: 246px;
+			bottom: 34px;
+		}
+		.nav-con .news{
+			width: 31px;
+			height: 21px;
+			background: url('images/sprite.png') -135px 0;
+			position: absolute;
+			left: 636px;
+			bottom: 34px;
+		}
+		.nav-con ul li{
+			float: left;
+		}
+		.nav-con ul li a{
+			display: inline-block;
+			height: 48px;
+			font: 16px/48px microsoft yahei;
+			text-decoration: none;
+			color: #fff;
+			padding: 0 13px;
+		}
+		.nav-con ul li a:hover{
+			background: #3A92D0;
+		}
+	</style>
+<body>
+	<div class="nav">
+		<div class="nav-con">
+			<div class="hot"></div>
+			<div class="news"></div>
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">前端开发</a></li>
+				<li><a href="#">JAva</a></li>
+				<li><a href="#">UI</a></li>
+				<li><a href="#">IOS</a></li>
+				<li><a href="#">网络营销</a></li>
+				<li><a href="#">活动专区</a></li>
+				<li><a href="#">C++</a></li>
+				<li><a href="#">PHp</a></li>
+				<li><a href="#">python</a></li>
+				<li><a href="#">问答专区</a></li>
+			</ul>
+			
+		</div>
+	</div>
+</body>
+</html>

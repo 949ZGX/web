@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+img{
+	border: 0 none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.idea{
+	width: 1226px;
+	height: 38px;
+	margin: 0 auto;
+}
+.yinjian{
+	width: 100px;
+	height: 38px;
+	font-size: 18px;
+}
+.look{
+	width: 100px;
+	height: 38px;
+	font-size: 14px;
+	text-align: right;
+}
+.con{
+	width: 1226px;
+	height: 614px;
+	margin: 0 auto;
+}
+.con-left{
+	width: 234px;
+	height: 614px;
+}
+.con-right{
+	width: 980px;
+	height: 614px;
+}
+.con-right-top{
+	width: 980px;
+	height: 300px;
+	margin-bottom: 10px;
+}
+.con-right-top1{
+	width: 234px;
+	height: 300px;
+	text-align: center;
+	background: #fff;
+	/* margin-top: -12px; */
+	font-size: 12px;
+
+	margin-right: 11px;
+}
+.con-right-top1 p.one span{
+	display: inline-block;
+	width: 60px;
+	height: 20px;
+	background: #F6E137;
+}
+.con-right-top1 p.four{
+	color: #F6E137;
+}
