@@ -22,7 +22,7 @@
             bareak;
         }*/
         //case集体声明
-        var fruit = prompt("请输入你喜欢吃的水果");
+        /*var fruit = prompt("请输入你喜欢吃的水果");
         switch(fruit){
             case "苹果": case "香蕉": case "葡萄":
             alert("您喜欢吃水果");
@@ -30,8 +30,47 @@
             default:
             alert("口味真重");
             break;
-        }
+        }*/
         //switch后面的变量和case后面值的数据类型必须保持一致
+        //在网页中获取用户输入的成绩信息，每20分算一个等级，不同等级显示不同的评语，在控制台中输出信息。
+        //比如：输入20      弹出消息框成绩20        输入  40   弹出消息框40       
+        /*var score = prompt("请输入您的成绩");
+        switch(score){
+            case "20":
+            console.log("成绩20");
+            break;
+            case "40":
+            console.log("成绩40");
+            break;
+            case "60":
+            console.log("成绩60");
+            break;
+            case "80":
+            console.log("成绩80");
+            break;
+            case "100":
+            console.log("成绩100");
+            break;
+            default:
+            console.log("输入错误");
+            break;
+        }*/
+        //根据用户输入月份，显示对应的季节（例如：3,4,5为春季）
+        var month = prompt("请输入当前月份");
+        switch(month){
+            case "3": case "4": case "5":
+            alert("当前是春季");
+            break;
+            case "6": case "7": case "8":
+            alert("当前是夏季");
+            break;
+            case "9": case "10": case "11":
+            alert("当前是秋季");
+            break;
+            case "12": case "1": case "2":
+            alert("当前是冬季");
+            break;
+        }
     </script>
 </head>
 <body>
