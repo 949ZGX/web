@@ -40,11 +40,45 @@
             document.write("<br>");
         }*/
         //在页面中打印99乘法表
-        for(var n1 = 1;n1 < 10;n1++){
+        /*for(var n1 = 1;n1 < 10;n1++){
             for(var n2 = 1;n2 <= n1;n2++){
                 document.write(n2+"X"+n1+"="+n1*n2+"&nbsp;");
             }
             document.write("<br>");
+        }*/
+        //输出找到1-100之间的所有质数
+        /*var flag = 0;
+        for(var j = 1;j <= 100;j++){
+            for(var i = 2;i < j;i++){
+                if(j%i == 0){
+                    flag = 1;
+                    break;//跳出循环体
+                }
+                else{
+                    flag = 0;
+                }
+            }
+            if(flag == 0 && j!=1){
+                console.log(j);
+            }
+        }*/
+        //输出1-10，但是不包括6
+        /*for(var n1 = 1;n1 <= 10;n1++){
+            if(n1 == 6){
+                continue;  //跳出本次循环，该语句后面的代码不再执行，整个循环体继续循环
+            }
+            else{
+                console.log(n1);
+            }
+        }*/
+        //请将1到100之间所有数字输出，排除是3的倍数的数字
+        for(i = 1;i <= 100;i++){
+            if(i%3 == 0){
+                continue;
+            }
+            else{
+                console.log(i);
+            }
         }
     </script>
 </head>
