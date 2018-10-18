@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84222b4b-ed31-49ff-9f50-4b366bb782a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="84222b4b-ed31-49ff-9f50-4b366bb782a3" name="Default Changelist" comment="测试下webstorm git使用">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/11466.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JD网页/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JD网页/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,30 +20,44 @@
     <session id="-947646048">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="css" value="3" />
+          <entry key="html" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="26" />
+          <entry key="css" value="277" />
+          <entry key="html" value="290" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="26" />
+          <entry key="CSS" value="277" />
+          <entry key="HTML" value="290" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -50,10 +66,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS基础/变量案例讲解.html">
+        <entry file="file://$PROJECT_DIR$/JD网页/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="448">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JD网页/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3612">
+              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -63,6 +88,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -75,6 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/html基础/test.html" />
         <option value="$PROJECT_DIR$/JS基础/test.html" />
+        <option value="$PROJECT_DIR$/JD网页/css/base.css" />
+        <option value="$PROJECT_DIR$/JD网页/index.html" />
       </list>
     </option>
   </component>
@@ -84,44 +112,26 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="647" />
+    <option name="width" value="725" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="传智学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="传智学习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="传智学习" type="b2602c69:ProjectViewProjectNode" />
-              <item name="传智学习" type="462c0819:PsiDirectoryNode" />
-              <item name="JS基础" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.常规" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,6 +157,20 @@
       <updated>1537154372443</updated>
       <workItem from="1537154375112" duration="718000" />
       <workItem from="1537155145549" duration="378000" />
+      <workItem from="1539182917278" duration="299000" />
+      <workItem from="1539183736581" duration="219000" />
+      <workItem from="1539183988180" duration="454000" />
+      <workItem from="1539184470739" duration="847000" />
+      <workItem from="1539260268324" duration="458000" />
+      <workItem from="1539261723056" duration="393000" />
+      <workItem from="1539527407387" duration="390000" />
+      <workItem from="1539529397686" duration="1137000" />
+      <workItem from="1539530613038" duration="875000" />
+      <workItem from="1539591732884" duration="1063000" />
+      <workItem from="1539602287263" duration="904000" />
+      <workItem from="1539603503968" duration="303000" />
+      <workItem from="1539603954588" duration="2392000" />
+      <workItem from="1539781064612" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="测试下webstorm git使用">
       <created>1537155333730</created>
@@ -159,13 +183,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096000" />
+    <option name="totallyTimeSpent" value="10838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="647" y="0" width="725" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25688073" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,7 +269,21 @@
     <entry file="file://$PROJECT_DIR$/JS基础/变量案例讲解.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JD网页/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JD网页/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
         </state>
       </provider>
     </entry>
