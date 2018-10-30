@@ -198,35 +198,230 @@ s, i, em {
     float: left;
     width: 362px;
     height: 60px;
-    background-color: pink;
+    padding: 20px 0;
+}
+.search-logo a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -999em;
+    background: url("../images/logo.png") no-repeat;
 }
 .search-input {
     float: left;
     width: 538px;
     height: 36px;
-    background-color: purple;
+    padding-top: 25px;
+}
+.search-input input {
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 4px;
+    font: 400 14px/32px "microsoft yahei";
+    color: rgb(151,151,151);
+    border: 2px solid #B61D1D;
+    border-right: 0;
+}
+.search-input button {
+    float: left;
+    width: 82px;
+    height: 36px;
+    color: #fff;
+    font: 400 16px/36px "microsoft yahei";
+    background-color: #B61D1D; 
+    /* cursor: pointer;   模拟鼠标小手 */
+    /* cursor: move;   变成十字箭头 */
+    /* cursor: text;  输入框光标 */
+    /* cursor: default;  默认 */
 }
 .search-car {
     float: right;
-    width: 139px;
+    width: 96px;
     height: 34px;
     margin: 25px 65px 0 0;
+    padding-left: 43px;
+    line-height: 34px;
+    position: relative;
     border: 1px solid #DFDFDF;
     background-color: #F9F9F9;
+}
+.icon1 {
+    position: absolute;
+    top: 9px;
+    left: 18px;
+    width: 18px;
+    height: 16px;
+    background: url("../images/tel.png") no-repeat 0 -58px;
+}
+.icon2 {
+    position: absolute;
+    right: 10px;
+    columns: #999;
+    font: 13px/34px "SimSun";
+}
+.icon3 {
+    position: absolute;
+    top: -5px;
+    width: 16px;
+    height: 14px;
+    background-color: #CB1623;
+    color: #fff;
+    text-align: center;
+    line-height: 14px;
+    border-radius: 7px 7px 7px 0;
 }
 .search-moreAlink {
     float: left;
     width: 520px;
     height: 28px;
-    background-color: yellow;
+    line-height: 28px;
+}
+.search-moreAlink a {
+    margin-right: 8px;
 }
 /*search部分end*/
 
-/*site-nav部分start*/
-/*site-nav部分end*/
+/*shortcut-nav部分start*/
+.shortcut-nav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #B1191A;
+}
+.shortcut-nav-menu {
+    width: 210px;
+    height: 44px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+.shortcut-nav-menu-all a {
+    /* 撑开和撑破是两回事 */
+    /* 浮动的盒子相互影响，不管是否在同一个盒子里 */
+    display: block;
+    width: 190px;
+    height: 44px;
+    color: #fff;
+    padding: 0 10px;
+    font: 400 15px/44px "microsoft yahei";
+    background-color: #B1191A;
+}
+.shortcut-nav-menu-one {
+    height: 465px;
+    margin-top: 2px;
+    background-color: #CB1623;
+    border-left: 1px solid #B1191A;
+    border-bottom: 1px solid #B1191A;
+}
+.shortcut-nav-menu-one div {
+    height: 31px;
+    padding: 0 10px;
+    font: 400 16px/31px "mcirosoft yahei";
+}
+.shortcut-nav-menu-one div:hover {
+    background-color: #fff;
+}
+.shortcut-nav-menu-one div:hover a {
+    color: #CB1623;
+}
+.shortcut-nav-menu-one h3 {
+    float: left;
+}
+.shortcut-nav-menu-one a {
+    color: #fff;
+}
+.shortcut-nav-menu-one i {
+    float: right;
+    color: #fff;
+    font: 400 9px/31px "consolas";
+}
+.shortcut-nav-items {
+    width: 730px;
+    height: 44px;
+    float: left;
+}
+.shortcut-nav-items li {
+    float: left;
+}
+.shortcut-nav-items a {
+    display: inline-block;
+    height: 44px;
+    padding: 0 20px;
+    color: #333;
+    font: 400 16px/44px "microsoft yahei";
+}
+.shortcut-nav-items a:hover {
+    color: #C81623;
+}
+.shortcut-nav-img {
+    width: 200px;
+    height: 44px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 50px;
+}
+/*shortcut-nav部分end*/
 
-/*site-nav部分start*/
-/*site-nav部分end*/
-
-/*site-nav部分start*/
-/*site-nav部分end*/
+/*footer部分start*/
+.footer-top-solgen {
+    position: relative;
+    width: 100%;
+    height: 54px;
+    padding: 20px 0;
+    margin-bottom: 16px;
+    background-color: #F5F5F5;
+}
+.footer-top-solgen-icon {
+    position: absolute;
+    left: 50%;
+}
+.footer-top-solgen-icon1 {
+    margin-left: -604px;
+}
+.footer-top-solgen-icon2 {
+    margin-left: -302px;
+}
+.footer-top-solgen-icon4 {
+    margin-left: 302px;
+}
+.footer-top-shopping dl {
+    float: left;
+    width: 200px;
+}
+.footer-top-shopping .last-dl {
+    width: 100px;
+}
+.footer-top-shopping dt,.coverage h3 {
+    height: 34px;
+    font: 400 16px/32px "microsoft yahei";
+}
+.footer-top-shopping dd {
+    line-height: 20px;
+}
+.coverage {
+    width: 203px;
+    height: 169px;
+    float: right;
+    margin-right: 60px;
+    padding-left: 15px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+.coverage p {
+    padding-top: 8px;
+}
+.coverage a {
+    float: right;
+}
+.footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px 0 30px;
+    border-top: 1px solid #E5E5E5;
+}
+.footer-bottom-links a {
+    padding: 0 10px;
+}
+.footer-bottom-img a {
+    margin: 0 5px;
+}
+/*footer部分end*/

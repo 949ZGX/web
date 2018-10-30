@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84222b4b-ed31-49ff-9f50-4b366bb782a3" name="Default Changelist" comment="测试下webstorm git使用">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/11466.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JD网页/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JD网页/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="84222b4b-ed31-49ff-9f50-4b366bb782a3" name="Default Changelist" comment="测试下webstorm git使用" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -20,7 +15,7 @@
     <session id="-947646048">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -28,11 +23,12 @@
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -65,7 +61,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JD网页/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="448">
@@ -74,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JD网页/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3612">
-              <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+            <state relative-caret-position="504">
+              <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -171,6 +167,7 @@
       <workItem from="1539603503968" duration="303000" />
       <workItem from="1539603954588" duration="2392000" />
       <workItem from="1539781064612" duration="8000" />
+      <workItem from="1539867971927" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="测试下webstorm git使用">
       <created>1537155333730</created>
@@ -183,7 +180,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10838000" />
+    <option name="totallyTimeSpent" value="10846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="647" y="0" width="725" height="745" extended-state="0" />
@@ -282,8 +279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JD网页/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3612">
-          <caret line="129" column="23" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
+        <state relative-caret-position="504">
+          <caret line="130" column="23" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
         </state>
       </provider>
     </entry>
